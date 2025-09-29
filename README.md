@@ -31,8 +31,8 @@ Notre mission : accompagner, représenter et promouvoir nos talents dans le mili
 ## 🛠️ Technologies utilisées  
 *(À adapter selon ton projet réel)*  
 - HTML / CSS / JavaScript  
-- Framework front-end (React, Vue, Angular, etc.)  
-- Backend (Node.js, PHP, Laravel, etc.)  
+- Framework front-end (React)  
+- Backend (Node.js)  
 
 ---
 
