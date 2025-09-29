@@ -1,44 +1,33 @@
 .home-container {
-  font-family: Arial, sans-serif;
-  padding: 2rem;
-  max-width: 1000px;
-  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 20px;
+  background-color: #222;
+  text-align: center;
 }
 
 .hero {
-  text-align: center;
-  margin-bottom: 3rem;
-}
-
-.hero h1 {
-  font-size: 3rem;
-  color: #1a1a1a;
-}
-
-.hero p {
-  font-size: 1.2rem;
-  color: #555;
-}
-
-.presentation, .mission {
-  margin-bottom: 2rem;
-}
-
-.presentation h2, .mission h2 {
-  font-size: 2rem;
-  margin-bottom: 1rem;
-  color: #222;
-}
-
-.presentation p, .mission p {
-  font-size: 1rem;
-  color: #444;
-  line-height: 1.6;
+  max-width: 800px;
 }
 
 .logo {
-  display: block;
-  margin: 0 auto 1rem auto; 
-  max-width: 200px;          
-  height: auto;
+  width: 300px;
+}
+
+.home-text {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: goldenrod;
+  background:  #222;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px goldenrod;
+}
+
+body {
+  margin: 0;
+  background-color: #222;
+  color: #222;
+  font-family: Arial, sans-serif;
 }
