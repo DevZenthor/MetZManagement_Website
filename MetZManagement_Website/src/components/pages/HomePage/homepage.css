@@ -1,0 +1,44 @@
+.home-container {
+  font-family: Arial, sans-serif;
+  padding: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.hero {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  color: #1a1a1a;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.presentation, .mission {
+  margin-bottom: 2rem;
+}
+
+.presentation h2, .mission h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #222;
+}
+
+.presentation p, .mission p {
+  font-size: 1rem;
+  color: #444;
+  line-height: 1.6;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto 1rem auto; 
+  max-width: 200px;          
+  height: auto;
+}
