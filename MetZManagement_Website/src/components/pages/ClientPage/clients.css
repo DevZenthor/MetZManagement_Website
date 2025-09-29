@@ -1,0 +1,94 @@
+.clients-section {
+  background-color: #222;
+  padding: 50px 20px;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.clients-title {
+  font-size: 2.5rem;
+  color: goldenrod;
+  margin-bottom: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.category-title {
+  font-size: 2rem;
+  color: #f0a500;
+  margin: 60px 0 20px;
+  text-transform: uppercase;
+}
+
+.clients-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 60px; /* espace entre cartes */
+  margin-bottom: 40px;
+}
+
+.client-card {
+  background-color: #222;
+  padding: 30px 25px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px goldenrod;
+  max-width: 250px;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.client-card:hover {
+  transform: translateY(-10px) scale(1.05);
+  box-shadow: 0 12px 25px goldenrod;
+}
+
+.client-photo {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  object-fit: cover;
+}
+
+.client-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: goldenrod;
+}
+
+.client-card p {
+  font-size: 1rem;
+  margin: 5px 0;
+  color: white;
+}
+
+.client-links {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.client-icon {
+  width: 30px;
+  height: 30px;
+  transition: transform 0.3s;
+}
+
+.client-icon:hover {
+  transform: scale(1.2);
+}
+
+.empty-text {
+  color: #ccc;
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 900px) {
+  .clients-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
