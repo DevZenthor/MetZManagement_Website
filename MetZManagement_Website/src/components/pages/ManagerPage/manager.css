@@ -1,0 +1,89 @@
+.managers-section {
+  background-color: #222;
+  padding: 50px 20px;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.managers-title {
+  font-size: 2.5rem;
+  color: goldenrod;
+  margin-bottom: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.managers-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 80px; /* espace horizontal */
+  flex-wrap: wrap;
+  padding: 50px 20px;
+  background-color: #222;
+  min-height: 100vh;
+}
+
+.manager-card {
+  background-color: #222;
+  padding: 30px 25px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px goldenrod;
+  max-width: 250px;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.manager-card:hover {
+  transform: translateY(-10px) scale(1.05);
+  box-shadow: 0 12px 25px goldenrod;
+}
+
+.manager-logo {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  object-fit: cover;
+}
+
+.manager-card h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: goldenrod;
+}
+
+.manager-card p {
+  font-size: 1rem;
+  margin: 5px 0;
+  color: white;
+}
+
+/* Twitter */
+.twitter-link {
+  display: inline-block;
+  margin-top: 15px;
+}
+
+.twitter-icon {
+  width: 30px;
+  height: 30px;
+}
+
+/* Placement créatif */
+.manager-card-0 { transform: rotate(-5deg); }
+.manager-card-1 { transform: rotate(3deg); }
+.manager-card-2 { transform: rotate(-2deg); }
+
+/* Responsive */
+@media (max-width: 900px) {
+  .managers-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .manager-card { transform: rotate(0deg) !important; }
+}
