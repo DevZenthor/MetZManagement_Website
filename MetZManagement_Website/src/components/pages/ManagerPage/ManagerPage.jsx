@@ -17,7 +17,7 @@ export default function Managers() {
     },
     {
       pseudo: "Marcok",
-      age: 28,
+      age: 36,
       nationalite: "Belge",
       clients: 3,
       logo: manager2,
@@ -25,9 +25,9 @@ export default function Managers() {
     },
     {
       pseudo: "Lordmatt",
-      age: 30,
+      age: 22,
       nationalite: "Belge",
-      clients: 0,
+      clients: 1,
       logo: manager3,
       twitter: "https://x.com/LNaufrages",
     },
